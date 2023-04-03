@@ -23,7 +23,8 @@ hasTargetSum([4], 5);
 
 /* 
   Big O time complexity
-  O(n)
+  We are referencing to our input twice in the same function
+  (O(n*n)) hence our Big O will be: O(n^2)
 */
 
 /* 
